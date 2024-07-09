@@ -69,7 +69,7 @@ function Navbar() {
         <div className="flex items-center gap-2">
           <Skeleton className={"w-10 h-10 rounded-full"} />
 
-          <Link href="/sign-in">
+          <Link href="/">
             <Button variant="secondary" className="border">
               Sign In
             </Button>

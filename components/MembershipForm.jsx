@@ -28,16 +28,7 @@ import {
 import { Input } from "./ui/input";
 import { Button } from "@/components/ui/button";
 import QrCodeComponent from "./QrCodeComponent";
-import {
-  addDoc,
-  collection,
-  getDocs,
-  orderBy,
-  query,
-  updateDoc,
-  where,
-} from "firebase/firestore";
-import { db, storage } from "@/firebase/config";
+
 import { getDownloadURL, ref, uploadBytes } from "firebase/storage";
 import { toast, useToast } from "./ui/use-toast";
 import { Toaster } from "./ui/toaster";

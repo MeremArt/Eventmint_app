@@ -170,7 +170,7 @@ const About = () => {
         {/* team */}
       </div>
       <Separator />
-      <div className="mb-10">
+      {/* <div className="mb-10">
         <div className="container mx-auto p-4">
           <br />
           <h1 className=" text-center text-3xl font-bold">
@@ -399,7 +399,7 @@ const About = () => {
             })
           )}
         </div>
-      </div>
+      </div> */}
       <Separator />
     </main>
   );
