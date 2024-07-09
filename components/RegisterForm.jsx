@@ -17,16 +17,7 @@ import {
 } from "./ui/form";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { db } from "@/firebase/config";
-import {
-  addDoc,
-  collection,
-  deleteDoc,
-  getDocs,
-  query,
-  where,
-} from "firebase/firestore";
-import { useUser } from "@clerk/nextjs";
+
 import Loader from "./Loader";
 import TeamMembersField from "./TeamMembersField";
 import Link from "next/link";

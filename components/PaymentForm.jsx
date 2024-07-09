@@ -8,10 +8,9 @@ import { CheckIcon } from "@radix-ui/react-icons";
 import Link from "next/link";
 import { BiCheck, BiCheckCircle, BiCheckSquare, BiCopy } from "react-icons/bi";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
-import { addDoc, collection } from "firebase/firestore";
-import { db } from "@/firebase/config";
+
 import { BsCheck2Circle } from "react-icons/bs";
-import { getFirestore, getDocs, query, where } from "firebase/firestore";
+
 import globalData from "@/app/data";
 
 function PaymentForm({ data }) {
