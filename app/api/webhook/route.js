@@ -1,5 +1,3 @@
-import { db } from "@/firebase/config";
-import { addDoc, collection, getDocs, query, where } from "firebase/firestore";
 import { permanentRedirect, redirect } from "next/navigation";
 import { NextResponse } from "next/server";
 
