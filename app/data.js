@@ -10,7 +10,7 @@ const data = {
   // Hero section
   heroBadgeMessage: "New",
   heroAlertMessage:
-    "We are currently in Pre-aplha. Please report any bugs to us.",
+    "We are currently in pre-alpha. Please report any bugs to us.",
   heroTitleLeft: "Enhancing Events with Interaction",
   heroTitleYellow: "Discover. Connect. and Celebrate",
   heroTitleRight: "  ",
@@ -181,7 +181,7 @@ const data = {
 
   // Footer
   footerMessage:
-    "Join E-Cell UVCE's Vibrant Community to enjoy Membership benefits.",
+    "Join Event Mint Vibrant Community to enjoy Membership benefits.",
   footerYellowBtnMessage: "Join our Community",
   footerYellowBtnLink: "/join",
   footerLinks: [
@@ -253,7 +253,7 @@ const data = {
   ],
 
   // Foot
-  footText: "E-Cell UVCE, Bengaluru | All Rights Reserved",
+  footText: "Event Mint | All Rights Reserved",
 
   // Mobile menu description
   mobileMenuDescription: "Empowering Students to Build Tomorrow's Ventures",
@@ -407,6 +407,39 @@ const data = {
       name: "Contact",
       link: "/contact",
     },
+  ],
+  dummyEvents: [
+    {
+      id: "1",
+      name: "Google Dev ",
+      date: "12-07-2024",
+      dateObject: new Date(2024, 6, 12, 23, 59, 59, 999),
+      imageUrl:
+        "https://res.cloudinary.com/dtfvdjvyr/image/upload/v1720394590/Screenshot_2024-07-08_at_00.22.31_eybovw.png", // Add the image URL here
+    },
+    {
+      id: "2",
+      name: "EcoSystem call",
+      date: "15-07-2024",
+      dateObject: new Date(2024, 6, 15, 23, 59, 59, 999),
+      imageUrl:
+        "https://www.bellanaija.com/wp-content/uploads/2016/02/Benin-1.jpg", // Add the image URL here
+    },
+    {
+      id: "3",
+      name: " Talent Olympics ",
+      date: "15-07-2024",
+      dateObject: new Date(2024, 6, 15, 23, 59, 59, 999),
+      imageUrl:
+        "https://res.cloudinary.com/dtfvdjvyr/image/upload/v1720544198/Screenshot_2024-07-09_at_17.56.10_qoyvvf.png", // Add the image URL here
+    },
+    // Add more dummy events as needed
+  ],
+  EventImages: [
+    "https://res.cloudinary.com/dtfvdjvyr/image/upload/v1720394165/Screenshot_2024-07-08_at_00.14.39_ybdaaj.png",
+    "https://www.bellanaija.com/wp-content/uploads/2016/02/Benin-11.jpg",
+    "https://res.cloudinary.com/dtfvdjvyr/image/upload/v1720394590/Screenshot_2024-07-08_at_00.22.31_eybovw.png",
+    "https://www.bellanaija.com/wp-content/uploads/2016/02/Benin-28.jpg",
   ],
 };
 

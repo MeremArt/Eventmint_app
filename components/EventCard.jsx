@@ -20,7 +20,7 @@ import {
 import { Button } from "./ui/button";
 import Link from "next/link";
 import { BiLogoGmail } from "react-icons/bi";
-import { date } from "zod";
+import data from "@/app/data";
 import { FaLocationDot } from "react-icons/fa6";
 
 function EventCard({ data, expired }) {
@@ -48,8 +48,8 @@ function EventCard({ data, expired }) {
         <div className="w-full flex justify-center">
           <div className="mt-4 flex justify-center w-[275px] h-[275px] bg-muted rounded-md">
             <img
-              src={`${data.image}`}
-              alt={`${data.name}`}
+              src={data?.imageUrl}
+              alt={data?.name}
               className="rounded-md object-cover bg-muted"
             />
           </div>
