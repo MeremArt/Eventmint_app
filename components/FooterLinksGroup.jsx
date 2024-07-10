@@ -7,7 +7,7 @@ function FooterLinksGroup({ group }) {
   return (
     <>
       <div className="flex flex-col items-center">
-        <h3 className="text-lg mb-2 dark:text-primary font-medium text-muted-foreground">
+        <h3 className="text-lg mb-2 dark:text-[#98FF98] font-medium text-muted-foreground">
           {group.title}
         </h3>
         <div className="mt-2 flex flex-col items-start gap-3">
