@@ -120,7 +120,7 @@ const About = () => {
         <br />
         <div className="max-w-[800px]">
           <h1 className={`text-3xl font-bold mb-4  text-center`}>
-            <span className="text-primary underline underline-offset-8">
+            <span className="text-[#98FF98] underline underline-offset-8">
               {data.aboutPageTitle}
             </span>
           </h1>
@@ -150,8 +150,10 @@ const About = () => {
               />
             </svg>
             <div className="backdrop-filter backdrop-blur-lg bg-card/50 bg-opacity-30 rounded-lg p-6 mt-10 shadow-inner border-2 dark:text-white  relative z-2 max-w-[1000px] ">
-              <h1 className={`text-xl font-semibold `}>History</h1>
-              <p className="my-4 text-primary">
+              <h1 className={`text-xl text-[#98FF98] font-semibold `}>
+                Overview
+              </h1>
+              <p className="my-4 text-white">
                 <b>{data.aboutPageHistoryHeading}</b>
               </p>
               <p className="mt-4 text-muted-foreground">

@@ -286,24 +286,10 @@ const data = {
     description:
       "To enhance event experiences by fostering dynamic interactions and seamless management to create unforgettable moments.",
   },
-  aboutPageHistoryHeading: "Where Innovation Meets Opportunity.",
-  aboutPageHistoryP1: `The Entrepreneurship Cell of UVCE, founded in 2014 by Tejas Narayan,
-  stands tall as a student-run body with the goal of fostering an
-  entrepreneurial culture and providing the most unique opportunities to the
-  student community. In 2019, the club was re-organized with support from
-  the alumni.`,
-  aboutPageHistoryP2: `We, at the Entrepreneurship Cell UVCE, seek to instill an Entrepreneurship
-  drive among the students of the college. With our numerous workshops,
-  seminars, and events, we aim to further the students' understanding of
-  business from how to chalk out a business plan to executing it. The E-Cell
-  envisions nurturing the innovative potential of every student, in a bid to
-  invigorate and inspire them to get one step closer to their entrepreneurial
-  vision. From networking, and business modeling to investor pitches, E-Cell
-  continually strives to provide students with a platform to holistically develop,
-  learn and expand the horizon of opportunities that lie before them.`,
-  aboutPageHistoryP3: `We also provide opportunities for our members to gain a better
-  understanding of the finance world by facilitating regular interactions with
-  them.`,
+  aboutPageHistoryHeading: "Enhancing Events with Interaction.",
+  aboutPageHistoryP1: `Welcome to Event Mint, where we transform the way you experience and manage events. Tired of the hassle and uncertainty of buying and reselling tickets? That's why we created Event Mint - to make your event journey as seamless and secure as possible.We are bridging the gap between event enthusiasts and event organizers, powered by Solana blockchain technology, to ensure transparent, secure, and efficient transactions. Experience the future of events with Event Mint - Enhancing Events with Interaction.`,
+  aboutPageHistoryP2: `At Event Mint, we provide interactive features that enrich your in-event experience. Engage in real-time group chats that activate upon entering the event location or at the start of the event. Participate in exciting trivia and scavenger hunts to earn badges and points. These activities not only reward you for your active participation and interactions but also increase interactivity between the event managers, sponsors, and attendees, creating a more engaging and connected event environment.`,
+  aboutPageHistoryP3: `We cover the full lifecycle of every event, from ticket purchase to post-event engagement. Before the event, easily buy or resell tickets in our secure secondary market. During the event, enjoy interactive features that enhance your experience. After the event, receive rewards for your participation and continue engaging with other attendees and organizers.`,
 
   // Gallery page
   galleryPageTitle: "Gallery",
