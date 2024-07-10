@@ -279,12 +279,12 @@ const data = {
   aboutSectionVision: {
     title: "Vision",
     description:
-      "To be a well-recognized center of excellence for entrepreneurial development, forming successful entrepreneurs.",
+      "To be the premier platform for interactive and engaging events, transforming how people connect and celebrate through cutting-edge solutions and unparalleled transparency.",
   },
   aboutSectionMission: {
     title: "Mission",
     description:
-      "To enhance and nurture entrepreneurial skills among students.",
+      "To enhance event experiences by fostering dynamic interactions and seamless management to create unforgettable moments.",
   },
   aboutPageHistoryHeading: "Where Innovation Meets Opportunity.",
   aboutPageHistoryP1: `The Entrepreneurship Cell of UVCE, founded in 2014 by Tejas Narayan,
