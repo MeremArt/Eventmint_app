@@ -190,15 +190,15 @@ const data = {
       links: [
         {
           name: "Facebook",
-          link: "https://www.facebook.com/ecelluvce",
+          link: "/",
         },
         {
           name: "Instagram",
-          link: "https://www.instagram.com/ecelluvce",
+          link: "/",
         },
         {
           name: "Twitter",
-          link: "https://www.twitter.com/ecelluvce",
+          link: "https://x.com/Eventmint_",
         },
       ],
     },

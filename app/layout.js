@@ -1,10 +1,15 @@
 import Navbar from "@/components/Navbar";
 import { ThemeProvider } from "@/components/providers/theme-provider";
-
 import { Inter } from "next/font/google";
 import FooterSection from "./(sections)/FooterSection";
 import "./globals.css";
 
+import dynamic from "next/dynamic";
+
+// const WalletContextProvider = dynamic(
+//   () => import("@/components/WalletContextProvider"),
+//   { ssr: false }
+// );
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -19,19 +24,12 @@ export const metadata = {
     "https://res.cloudinary.com/dtfvdjvyr/image/upload/v1719802304/event-logo_iyl1ec.png",
 };
 
-export default async function RootLayout({ children }) {
+export default function RootLayout({ children }) {
   function isTimestampWithinOneYear(timestamp) {
-    // Convert the provided timestamp to milliseconds
     const milliseconds = timestamp.seconds * 1000 + timestamp.nanoseconds / 1e6;
-
-    // Create a Date object from the milliseconds
     const providedDate = new Date(milliseconds);
-
-    // Calculate date one year ago from today
     const oneYearAgo = new Date();
     oneYearAgo.setFullYear(oneYearAgo.getFullYear() - 1);
-
-    // Compare provided timestamp with date one year ago
     return providedDate > oneYearAgo;
   }
 
@@ -47,19 +45,16 @@ export default async function RootLayout({ children }) {
           rel="icon"
           href="https://res.cloudinary.com/dtfvdjvyr/image/upload/v1720387059/evenmint0_yeqwyy.png"
         />
-        {/* Open Graph Meta Tags */}
         <meta property="og:title" content={metadata.title} />
         <meta property="og:description" content={metadata.description} />
         <meta property="og:url" content={metadata.url} />
         <meta property="og:image" content={metadata.image} />
         <meta property="og:type" content="website" />
-        {/* Twitter Card Meta Tags */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={metadata.title} />
         <meta name="twitter:description" content={metadata.description} />
         <meta name="twitter:image" content={metadata.image} />
         <meta name="twitter:url" content={metadata.url} />
-        {/* Add more meta tags as needed */}
       </head>
       <body className={inter.className}>
         <ThemeProvider
@@ -68,9 +63,11 @@ export default async function RootLayout({ children }) {
           enableSystem
           disableTransitionOnChange
         >
+          {/* <WalletContextProvider> */}
           <Navbar />
           {children}
           <FooterSection />
+          {/* </WalletContextProvider> */}
         </ThemeProvider>
       </body>
     </html>
