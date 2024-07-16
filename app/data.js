@@ -17,7 +17,7 @@ const data = {
   heroDescription:
     "Event Mint offers a comprehensive solution for event organizers, enhancing every aspect of the event lifecycle from planning and coordination to execution and post-event follow-up.",
   heroYellowBtnMessage: "Join our Community",
-  heroYellowBtnLink: "/join",
+  heroYellowBtnLink: "https://discord.gg/BThWzzTa",
   heroYellowBtnMessageForMembers: "Read Exclusive Articles",
   heroYellowBtnLinkForMembers: "/articles",
   heroSecondaryBtnMessage: "Explore Events",

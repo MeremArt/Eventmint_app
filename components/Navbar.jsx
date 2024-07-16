@@ -67,11 +67,9 @@ function Navbar() {
         </div>
 
         <div className="flex items-center gap-2">
-          <Skeleton className={"w-10 h-10 rounded-full"} />
-
-          <Link href="/">
+          <Link href="/waitlist">
             <Button variant="secondary" className="border">
-              Sign In
+              Join Waitlist
             </Button>
           </Link>
 
